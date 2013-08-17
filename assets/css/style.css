@@ -1144,6 +1144,12 @@ img.pull-left{
 /* ==== media screen queries ==== */
 
 @media (min-width: 768px) and (max-width: 979px) {
+	
+.navbar .btn-navbar {
+	margin-top: 25px;
+	margin-right: 25px;
+}
+
 	.navbar-inner {
 		width:100%;
 	}
@@ -1165,9 +1171,13 @@ img.pull-left{
 
 @media (max-width: 767px) {
 
+.navbar .btn-navbar {
+	margin-top: 25px;
+	margin-right: 25px;
+}
+
 	.navbar-inner {
-	  /* Single Hamburger display isn't enabled, let's just turn off the header if the width is too small for now (it's better than being kinda brokenish) */
-	  display:none;
+	  display: none;
 	}
 
 	.navbar-inner .container {
@@ -1246,6 +1256,10 @@ img.pull-left{
 
 @media (max-width: 480px) {
 
+.navbar .btn-navbar {
+	margin-top: 25px;
+	margin-right: 30px;
+}
 	
     nav select {
       display: inline-block;
@@ -1259,6 +1273,7 @@ img.pull-left{
           border-radius: 4px;
 		font-size:14px;
 	}
+	
 	
 	section#intro{
 		padding:180px 0 20px;
@@ -1282,7 +1297,8 @@ img.pull-left{
 
 #services .box {
 	height: 200px;
-}
+} 
+
 
 .logo img, .brand img {
 	/* Make it 50% for retina displays */
