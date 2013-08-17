@@ -1166,8 +1166,7 @@ img.pull-left{
 @media (max-width: 767px) {
 
 	.navbar-inner {
-	  /* Single Hamburger display isn't enabled, let's just turn off the header if the width is too small for now (it's better than being kinda brokenish) */
-	  display:none;
+	  width:100%;
 	}
 
 	.navbar-inner .container {
@@ -1246,6 +1245,7 @@ img.pull-left{
 
 @media (max-width: 480px) {
 
+
 	
     nav select {
       display: inline-block;
@@ -1282,7 +1282,8 @@ img.pull-left{
 
 #services .box {
 	height: 200px;
-}
+} 
+
 
 .logo img, .brand img {
 	/* Make it 50% for retina displays */
