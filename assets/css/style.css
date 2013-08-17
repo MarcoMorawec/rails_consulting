@@ -1177,7 +1177,7 @@ img.pull-left{
 }
 
 	.navbar-inner {
-	  width:100%;
+	  display: none;
 	}
 
 	.navbar-inner .container {
