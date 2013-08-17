@@ -84,7 +84,7 @@ h4 small {
 	opacity:1;
 }
 section {
-	padding:120px 0 40px 0;
+	padding: 120px 0;
 }
 
 iframe, embed, object {
@@ -1166,8 +1166,10 @@ img.pull-left{
 @media (max-width: 767px) {
 
 	.navbar-inner {
-		width:100%;
+	  /* Single Hamburger display isn't enabled, let's just turn off the header if the width is too small for now (it's better than being kinda brokenish) */
+	  display:none;
 	}
+
 	.navbar-inner .container {
 	width:100%;
     padding-left: 20px;
@@ -1275,5 +1277,20 @@ img.pull-left{
 	.tweet span {
 		line-height:1.5em;
 	}
+}
+
+
+#services .box {
+	height: 200px;
+}
+
+.logo img, .brand img {
+	/* Make it 50% for retina displays */
+	width: 159px;
+}
+
+
+#contact p {
+	font-family: Helvetica-Light;
 }
 
